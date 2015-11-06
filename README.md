@@ -13,10 +13,10 @@ This app encompasses all of the major pieces of Angular we've covered thus far:
 2. Services
 3. $http and Promises
 
-## Step 1 Explore the API
+## Step 1: Explore the API
 Head on over to smurfs.devmounta.in and take a look at the API. It's a fairly basic REST API that shows a list of smurfs. Each smurf has a name. You have the ability post new smurfs. **Note: the database resets itself every 10 minutes or so. Don't be alarmed :)**
 
-## Step 1: Create Main View
+## Step 2: Create Main View
 Create our main view that includes the following:
 - A layout with a Smurf Station header
 - An awesome picture/gif/background of your choice.
@@ -28,7 +28,7 @@ Now start the angular portion:
 - Create the controller for the main view and use a service to make the main HTTP call to get your smurf data.
 - Display the smurf data in your main view
 
-## Step 2: Adding Smurfs
+## Step 3: Adding Smurfs
 Add a section into your main view where you can create a new Smurf. Since all you need is a name, this shouldn't be too complicated.
 
 Add the method to your service for creating the Smurf.
