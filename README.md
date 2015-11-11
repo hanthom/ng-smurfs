@@ -32,3 +32,15 @@ Now start the angular portion:
 Add a section into your main view where you can create a new Smurf. Since all you need is a name, this shouldn't be too complicated.
 
 Add the method to your service for creating the Smurf.
+
+## Step 4: Routing
+Add routing to your app so that when a Smurf is clicked on from the main view, the user is taken to a `/smurfs/:smurfId` route unique to each Smurf.
+
+Use a `resolve` so that the router can retrieve the individual Smurf data before activating the individual Smurf state.
+
+## Step 5: Smurf profile directive
+Create a directive for showing the Smurf's profile picture. The profile should be a smaller (scaled down if needed), square image taken from the `img` property of the Smurf's JSON data.
+
+Use the directive in both the main view (next to each Smurf in the list) as well as on the individual Smurf details route.
+
+Make it so that when the profile picture is clicked, the image is opened in a new tab.
